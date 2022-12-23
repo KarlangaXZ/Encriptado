@@ -1,0 +1,145 @@
+   
+body{
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Play', sans-serif;
+    background: #497D92;
+    margin: 0;
+
+}
+
+nav{
+    text-align: center;
+    background-color: #25596D;
+    
+}
+
+.logo{
+    width: 100px;
+}
+
+
+main{
+    display: inline-flex; 
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.text-input{
+    background-color: #68a8c2;
+    color: white;
+    
+}
+
+.text-input-salida{
+    background-color: #25596D;
+    color: white;
+
+}
+
+#btn-encriptar{
+    background-color: #053f57;
+}
+
+.box-ecriptado{
+    width: 30%;
+    text-align: center;
+    margin: 20px 0 0 14%; 
+}
+
+
+.msg-box{
+    width: 20%;
+    text-align: center;
+    margin: 20px 0 0 10em;
+    padding: 0 0 3em 0;
+}
+
+textarea{
+    margin: 0 0 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.btn {
+  padding: 1em 3em;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #207496;
+  box-shadow: 0px 15px 20px rgba(1, 247, 148, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+footer{
+    text-align: center;
+    background: #0C1C22;
+    width: 100%;
+    
+    color: white;
+    padding: 0;
+}
+
+.footerlogo{
+     width: 100px;
+     
+}
+
+footer span{
+    margin: 3em;
+
+}
+
+.redes{
+    margin: 10px 0 0 0;
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px){
+
+    nav, footer{
+        width: 555px;
+    }
+
+    Main {
+        flex-wrap: wrap;
+    }
+
+    .box-ecriptado{
+       width: 390px; 
+       text-align: center;
+       margin: 10px 0 0 6em;
+
+    }
+
+    .msg-box{
+        width: 480px; 
+        text-align: center;
+        
+     }
+
+     .btn{
+        margin: 0 0 10px 0;
+     }
+}
+    
